@@ -1,0 +1,20 @@
+package com.ksf.beans.xml;
+
+import com.ksf.beans.BeanDefinition;
+import com.ksf.beans.io.ResourceLoader;
+import com.ksf.beans.reader.XmlBeanDefinitionReader;
+import org.junit.Assert;
+import org.junit.Test;
+
+import java.util.Map;
+
+public class XmlBeanDefinitionReaderTest {
+
+	@Test
+	public void test() throws Exception {
+		XmlBeanDefinitionReader xmlBeanDefinitionReader = new XmlBeanDefinitionReader(new ResourceLoader());
+		xmlBeanDefinitionReader.loadBeanDefinitions("tinyioc.xml");
+		Map<String, BeanDefinition> registry = xmlBeanDefinitionReader.getRegistry();
+		Assert.assertTrue(registry.size() > 0);
+	}
+}
