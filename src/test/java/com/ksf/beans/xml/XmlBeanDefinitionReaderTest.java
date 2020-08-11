@@ -1,8 +1,8 @@
 package com.ksf.beans.xml;
 
-import com.ksf.beans.BeanDefinition;
+import com.ksf.beans.factory.config.BeanDefinition;
 import com.ksf.beans.io.ResourceLoader;
-import com.ksf.beans.reader.XmlBeanDefinitionReader;
+import com.ksf.beans.factory.support.XmlBeanDefinitionReader;
 import org.junit.Assert;
 import org.junit.Test;
 

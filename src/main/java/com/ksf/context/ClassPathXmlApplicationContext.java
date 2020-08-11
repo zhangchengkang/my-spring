@@ -1,10 +1,10 @@
 package com.ksf.context;
 
-import com.ksf.beans.BeanDefinition;
+import com.ksf.beans.factory.config.BeanDefinition;
 import com.ksf.beans.factory.AbstractBeanFactory;
 import com.ksf.beans.factory.AutowireCapableBeanFactory;
 import com.ksf.beans.io.ResourceLoader;
-import com.ksf.beans.reader.XmlBeanDefinitionReader;
+import com.ksf.beans.factory.support.XmlBeanDefinitionReader;
 
 import java.util.Map;
 

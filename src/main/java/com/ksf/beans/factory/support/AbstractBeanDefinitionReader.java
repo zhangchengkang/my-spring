@@ -1,6 +1,6 @@
-package com.ksf.beans.reader;
+package com.ksf.beans.factory.support;
 
-import com.ksf.beans.BeanDefinition;
+import com.ksf.beans.factory.config.BeanDefinition;
 import com.ksf.beans.io.ResourceLoader;
 
 import java.util.HashMap;

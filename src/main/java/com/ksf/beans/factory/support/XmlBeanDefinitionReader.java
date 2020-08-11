@@ -1,8 +1,7 @@
-package com.ksf.beans.reader;
+package com.ksf.beans.factory.support;
 
 import com.ksf.BeanReference;
-import com.ksf.beans.BeanDefinition;
-import com.ksf.beans.PropertyValue;
+import com.ksf.beans.factory.config.BeanDefinition;
 import com.ksf.beans.io.ResourceLoader;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

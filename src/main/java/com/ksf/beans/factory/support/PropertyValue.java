@@ -1,4 +1,4 @@
-package com.ksf.beans;
+package com.ksf.beans.factory.support;
 
 /**
  * @Author: zhangchengkang
